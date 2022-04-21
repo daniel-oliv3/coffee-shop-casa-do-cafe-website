@@ -61,6 +61,10 @@ section {
     padding: 1rem 3rem;
 }
 
+.btn:hover {
+    background-color: var(--black);
+}
+
 
 /* ======= Header Section/Seção do cabeçalho ======= */
 .header {
@@ -143,6 +147,85 @@ section {
 
 
 
+/* ======= About Section/Seção Sobre ======= */
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .image {
+    flex: 1 1 40rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+
+.about .content {
+    flex: 1 1 40rem;
+}
+
+.about .content h3 {
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.about .content p {
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--light-color);
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,7 +285,19 @@ section {
     .header .flex .navbar a {
         display: block;
         margin: 2rem;
-    } 
+    }
+    
+    .home-bg {
+        background-position: left;
+    }
+
+    .home-bg .home {
+        justify-content: center;
+    }
+
+    .home-bg .home .content h3 {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 450px){
