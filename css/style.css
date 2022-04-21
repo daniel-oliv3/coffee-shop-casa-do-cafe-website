@@ -72,16 +72,29 @@ section {
 }
 
 .header .flex .logo img {
-    height: 4rem;
+    height: 4.5rem;
 }
 
 
+.header .flex .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+}
 
 
+.header .flex .navbar a:hover {
+    text-decoration: underline;
+    color: var(--main-color);
+}
 
 
-
-
+#menu-btn {
+    display: none;
+    font-size: 2.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
 
 
 
