@@ -152,7 +152,7 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .about .image {
@@ -169,8 +169,10 @@ section {
 }
 
 .about .content h3 {
-    font-size: 4rem;
+    font-size: 4.5rem; /*4.5rem*/
     color: var(--black);
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 1rem;
 }
 
 .about .content p {
@@ -297,6 +299,10 @@ section {
 
     .home-bg .home .content h3 {
         font-size: 4rem;
+    }
+
+    .about .content h3 {
+        font-size: 3rem;
     }
 }
 
