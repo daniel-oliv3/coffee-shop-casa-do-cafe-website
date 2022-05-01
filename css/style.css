@@ -51,6 +51,22 @@ section {
     margin: 0 auto;
 }
 
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading img {
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.heading h3 {
+    font-size: 4rem;
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -179,20 +195,29 @@ section {
     padding: 1rem 0;
     line-height: 2;
     color: var(--light-color);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 
 
 
+/* ======= Facility Section/Seção de Instalações ======= */
+.facility .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
 
 
+.facility .box-container .box {
+    text-align: center;
+}
 
 
-
-
-
-
+.facility .box-container .box img {
+    height: 7rem;
+}
 
 
 
@@ -310,6 +335,10 @@ section {
 
     html {
         font-size: 50%;
+    }
+
+    .heading h3 {
+        font-size: 3rem;
     }
 }
 
