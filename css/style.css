@@ -216,12 +216,22 @@ section {
 
 
 .facility .box-container .box img {
-    height: 7rem;
+    height: 10rem;
+    margin-bottom: .5rem;
+}
+
+.facility .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin: 1rem 0;
 }
 
 
-
-
+.facility .box-container .box p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
 
 
 
