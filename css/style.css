@@ -281,10 +281,28 @@ section {
 
 
 /* ======= Team Section/Seção de Time ======= */
+.team .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.team .box-container .box {
+    text-align: center;
+}
+
+.team .box-container .box img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
 
 
-
-
+.team .box-container .box h3 {
+    font-size: .5rem;
+    color: var(--black);
+}
 
 
 
