@@ -350,11 +350,59 @@ section {
 
 
 
+/* ======= Footer Section/Seção de Rodapé ======= */
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+
+.footer .box-container .box {
+    text-align: center;
+}
+
+
+.footer .box-container .box i {
+    font-size: 2.5rem;
+    line-height: 6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+
+.footer .box-container .box p {
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+
+.footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--black);
+}
 
 
 
-
-
+.footer .credit span {
+    color: var(--main-color);
+}
 
 
 
