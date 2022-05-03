@@ -7,7 +7,7 @@
 	<title>Casa do Café</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/favicon.ico"/>
-	<!-- cdnjs link -->
+	<!-- cdnjs font-awesome link -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
@@ -173,8 +173,24 @@
 	</section>
 
 
-
-
+	<!-- ======= Contacts Section/Seção de Contatos ======= -->
+	<section class="contact" id="contact">
+		<div class="heading">
+			<img src="img/heading-img.png" alt="">
+			<h3>Nossos Contatos</h3>
+		</div>
+		<div class="row">
+			<div class="image">
+				<img src="img/contact-img.svg" alt="">
+			</div>
+			<form action="" method="post">
+				<input type="text" name="name" required class="box" maxlength="20" placeholder="Digite Seu Nome">
+				<input type="number" name="number" required class="box" maxlength="20" placeholder="Digite Seu Número" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+				<input type="number" name="guests" required class="box" maxlength="20" placeholder="Quantos convidados" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+				<input type="submit" name="send" value="Enviar Mensagem" class="btn">
+			</form>
+		</div>
+	</section>
 
 
 
