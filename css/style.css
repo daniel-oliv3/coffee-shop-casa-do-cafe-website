@@ -239,7 +239,7 @@ section {
 .menu .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: flex-start;
     justify-content: center;
 }
@@ -263,7 +263,7 @@ section {
 
 
 
-
+/* ======= Menu Section/Seção de Cardapio ======= */
 
 
 
