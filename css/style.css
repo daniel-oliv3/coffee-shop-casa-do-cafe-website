@@ -263,8 +263,19 @@ section {
 
 
 
-/* ======= Menu Section/Seção de Cardapio ======= */
+/* ======= Gallery Section/Seção de Galeria ======= */
+.gallery .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap: 1.5rem;
+    justify-content: center;
+}
 
+.gallery .box-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -362,6 +373,10 @@ section {
 
     html {
         font-size: 50%;
+    }
+
+    .heading img {
+        height: 3rem;
     }
 
     .heading h3 {
