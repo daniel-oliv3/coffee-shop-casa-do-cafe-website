@@ -236,13 +236,30 @@ section {
 
 
 /* ======= Menu Section/Seção de Cardapio ======= */
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 
+.menu .box-container .box {
+    text-align: center;
+}
 
 
+.menu .box-container .box img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
 
-
+.menu .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
 
 
 
