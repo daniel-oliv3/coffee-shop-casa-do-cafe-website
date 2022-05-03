@@ -300,25 +300,53 @@ section {
 
 
 .team .box-container .box h3 {
-    font-size: .5rem;
+    font-size: 2rem;
     color: var(--black);
 }
 
 
 
 /* ======= Contacts Section/Seção de Contatos ======= */
+.contact .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 
+.contact .row .image {
+    flex: 1 1 50rem
+}
 
 
+.contact .row .image img {
+    width: 100%;
+}
 
 
+.contact .row form{
+    flex: 1 1 30rem;
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
 
 
-
-
-
-
+.contact .row form .box {
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    border: var(--border);
+    margin: 1rem 0;
+}
 
 
 
